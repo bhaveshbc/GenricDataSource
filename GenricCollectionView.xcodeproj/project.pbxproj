@@ -12,6 +12,7 @@
 		7CAB33D822A5421B000892A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CAB33D622A5421B000892A4 /* Main.storyboard */; };
 		7CAB33DA22A5421E000892A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CAB33D922A5421E000892A4 /* Assets.xcassets */; };
 		7CAB33DD22A5421E000892A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CAB33DB22A5421E000892A4 /* LaunchScreen.storyboard */; };
+		7CAB33E522A5423D000892A4 /* GenricDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB33E422A5423D000892A4 /* GenricDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7CAB33D922A5421E000892A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CAB33DC22A5421E000892A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CAB33DE22A5421E000892A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CAB33E422A5423D000892A4 /* GenricDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenricDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				7CAB33D922A5421E000892A4 /* Assets.xcassets */,
 				7CAB33DB22A5421E000892A4 /* LaunchScreen.storyboard */,
 				7CAB33DE22A5421E000892A4 /* Info.plist */,
+				7CAB33E422A5423D000892A4 /* GenricDataSource.swift */,
 			);
 			path = GenricCollectionView;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CAB33E522A5423D000892A4 /* GenricDataSource.swift in Sources */,
 				7CAB33D522A5421B000892A4 /* ViewController.swift in Sources */,
 				7CAB33D322A5421B000892A4 /* AppDelegate.swift in Sources */,
 			);
